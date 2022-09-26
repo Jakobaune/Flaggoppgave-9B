@@ -3,41 +3,49 @@
 <head> 
     <h2> Flagg fra gruppe 9b</h2>
     <script src="index.js"></script> 
+    <link rel="stylesheet" href="index.css"/>
 </head>
-<Body> 
-    <p style="color:rgb(119, 0, 255);"> <em>På denne siden har vi programmert tre flagg </em></p>
-    <br>
-  
-  <style>  button {
-    display: inline-block;
-    background-color: #81dff5;
-    border-radius: 10px;
-    border: 4px double #cccccc;
-    color: #eeeeee;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 200px;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -o-transition: all 0.5s;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin bottom: 200px;
-  }
-</style>
-
-    <button type="button">  
-        <a href="https://www.verdensflagg.no/hovedsiden"> Alle verdens flagg </a> 
-    </button> <br>
-    <button type="button" onclick=index()>  
-        <a href="https://www.fn.no/Land"> Land 1</a> 
-    </button>
-    <button type="button">  
-        <a href=""> Land 2</a> 
-    </button>
-    <button type="button">  
-        <a href=""> Land 3</a> 
-    </button>
-</body>
-
+<body> 
+    <div id="trigger" class="flag north_korea" onclick="nk()" style="position: relative; left: 350px; width: 300px;">
+        <div style="background: #024fa2; height: 33px"></div>
+        <div style="background: #ed1c27; height: 122px">
+          <div class="circle">
+            <div class="star"></div>
+          </div>
+        </div>
+        <div style="background: #024fa2; height: 33px"></div>
+      </div>
+      <p onclick="nk()" id="txtbox" justify hidden style="position: absolute; left: 357.5px;background-color:#cddddc; width: 260px;
+      border-radius:5px;
+      opacity: 0.90;
+      font-size:14px;
+      padding:15px;
+      margin:5px;"><b>
+        Nord Korea<br/>
+        Populasjon: 25,971,909<br/>
+        Hovedstad: Pyongyang<br/>
+        Areal: 120,540 km2<br/>
+        Offisielt Språk: Koreansk<br/>
+        Info: Et land som er kontroversielt kjent for å være et diktatur
+        der Kim-dynastiet har regjert landet i mange ti-år. Er sterkt
+        isolert fra verden med mange sanksjoner og menneskerettighetsbrudd.
+        </b>
+    <div style="position: relative; bottom: 200px;width: 300px;" id="trigger" onclick="ge()">
+<p style="width: 300px;height: 66.6px;background-color: black;margin:0px"></p>
+<p style="width: 300px;height: 66.6px;background-color: #DD0000;margin:0px"></p>
+<p style="width: 300px;height: 66.6px;background-color: #FFCC00;margin:0px"></p></div>
+    <p onclick="ge()" id="txtbox2" justify hidden style="position: relative; bottom: 200px;background-color:#cddddc; width: 260px;
+    border-radius:5px;
+    opacity: 0.90;
+    font-size:14px;
+    padding:15px;
+    margin:5px;"><b>
+    Tyskland<br/>
+    Populasjon: 83,695,430<br/>
+    Hovedstad: Berlin<br/>
+    Areal: 357,022 km2<br/>
+    Offisielt Språk: Tysk<br/>
+    Info: Et land som er kjent for bil produksjon slik som Audi,
+    Mercedes, BMW og Volkswagen. Kjent for Autobahn der det ikke 
+    eksisterer en fartsgrense. Tyskland er også et medlem av EU.
+</b>

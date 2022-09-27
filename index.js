@@ -13,3 +13,11 @@ function ge() {
         document.getElementById("txtbox2").toggleAttribute("hidden");
     }
 }
+
+function fr() {
+    if ('hidden') {
+        document.getElementById("txtbox3").toggleAttribute('hidden');
+    } else {
+        document.getElementById("txtbox3").toggleAttribute("hidden");
+    }
+}

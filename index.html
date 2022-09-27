@@ -6,8 +6,36 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <canvas id="Frankrike" width="300" height="300"> </canvas>
-  <script>
+  <canvas onclick="fr()" id="Frankrike" width="300" height="300" style="position: absolute; left: 710px; width: 300px"></canvas>
+  <p
+    onclick="fr()"
+    id="txtbox3"
+    hidden
+    justify
+    style="
+      position: absolute;
+      left: 710px;
+      top: 265px;
+      background-color: #cddddc;
+      width: 260px;
+      border-radius: 5px;
+      opacity: 0.9;
+      font-size: 14px;
+      padding: 15px;
+      margin: 5px;
+    ">
+    <b>
+      Frankrike<br />
+      Populasjon: 25,971,909<br />
+      Hovedstad: Pyongyang<br />
+      Areal: 120,540 km2<br />
+      Offisielt Språk: Koreansk<br />
+      Info: Et land som er kontroversielt kjent for å være et diktatur der
+      Kim-dynastiet har regjert landet i mange ti-år. Er sterkt isolert fra
+      verden med mange sanksjoner og menneskerettighetsbrudd.
+    </b>
+  </p>
+  <script onclick="fr()">
     const canvas = document.getElementById("Frankrike");
     const ctx = canvas.getContext("2d");
 

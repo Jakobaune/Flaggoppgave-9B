@@ -6,9 +6,9 @@
   <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-  <canvas id="Jakob" width="300" height="300"> </canvas>
+  <canvas id="Frankrike" width="300" height="300"> </canvas>
   <script>
-    const canvas = document.getElementById("Jakob");
+    const canvas = document.getElementById("Frankrike");
     const ctx = canvas.getContext("2d");
 
     function rectangle(width, height, Filltype, color) {
@@ -16,12 +16,12 @@
       ctx.fillRect(0, 0, width, height);
     }
 
-    function tegnArmenskFlagg() {
-      rectangle(300, 150, "solid", "orange");
-      rectangle(300, 100, "solid", "blue");
-      rectangle(300, 50, "solid", "red");
+    function tegnFranskFlagg() {
+      rectangle(300, 200, "solid", "#EF4135");
+      rectangle(200, 200, "solid", "#FFFFFF");
+      rectangle(100, 200, "solid", "#0055A4");
     }
-    tegnArmenskFlagg();
+    tegnFranskFlagg();
   </script>
   <div
     id="trigger"

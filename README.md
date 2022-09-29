@@ -7,7 +7,7 @@ De fleste prefererer HTML siden det er lettest å forstå. HTML-flagg med styles
 
 Jakob synes canvas var greit, men det var en funksjon som han ikke klarte å få funksjon i. Dermed endret han navn på funksjonene og fikk det til etter hvert. 
 
-Issa brukte Issues, heldigvis var det ikke så mange issues, men det var en issue som Issa fant. Han syns prosessen med å fikse issuen var grei med prøving og feiling, ved hjelp av live serveren så kunne du heletiden se endringene du gjorde så du kunne pushe når det var klart. 
+Issa brukte Issues, heldigvis var det ikke så mange issues, men det var en issue som Issa fant. Han syns prosessen med å fikse issuen var grei med prøving og feiling, ved hjelp av live serveren så kunne du hele tiden se endringene du gjorde så du kunne pushe når det var klart. 
 
 Caroline synes HTML-flagg var greit og hadde god forståelse på hvordan det skulle lages. Designing av tekstbokser var enkelt, greit og ga god mestringsfølelse.
 

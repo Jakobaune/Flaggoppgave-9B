@@ -5,7 +5,7 @@ Mange strever fortsatt med git bash så deres oppgave var å bruke git bash og f
 
 De fleste prefererer HTML siden det er lettest å forstå. HTML-flagg med styles var enklest og lettest å forstå, men vi ser at dette er en svært restriktert måte å tegne flagg på. Det vi har innsett er at classes ved bruk av CSS var veldig brukbart i denne oppgaven, samtidig canvas har også flere funksjoner, men er mye vanskligere å forstå. 
 
-Jakob synes canvas var greit, men det var en funksjon som han ikke klarte å få funksjon i. Dermed endret han navn på funksjonene og fikk det til etter hvert. 
+Jakob synes canvas var greit, men det var en funksjon som han ikke klarte å få funksjon i. Dermed endret han navn på funksjonene og fikk det til etter hvert. Jakob hadde ansvar for å lage repository denne gangen, han synes det gikk greit, men det var mye han ikke hadde vært borti før. GitHub Pages var veldig greit og forståelig.
 
 Issa brukte Issues, heldigvis var det ikke så mange issues, men det var en issue som Issa fant. Han syns prosessen med å fikse issuen var grei med prøving og feiling, ved hjelp av live serveren så kunne du hele tiden se endringene du gjorde så du kunne pushe når det var klart. 
 
@@ -18,3 +18,5 @@ Islam synes bakgrunn og design var gøy, lærerikt og morsomt. Islam har lært s
 Alf synes tittel beskrivelse var lett, men git var litt vanskeligere, har lært masse om git og var gøy og spennende.
 
 Kristian er den mest erfarne med både git, HTML, CSS og JS. JavaScript var et helt nytt kodespråk for han og det ble en stor utfordring å implementere disse JavaScript funksjonene på nettsiden, han har lært utrolig mye innenfor JavaScript, eksterne filer og funksjoner.
+
+Nettsiden har tre flagg som alle har litt forskjellig kompleksitet, det vanskeligste var det Nord Koreanske flagget der man måtte lage en hvit sirkel med en rød stjerne i midten. Dette ble brukt med CSS og classes. Det var lettere å lage flagget ved å sortere flagget i classes. Tyskland er laget med HTML styles som er CSS element ved bruk av styles i HTML-element. Frankrike er laget med canvas som utnytter JavaScript for å tegne flagget. JavaScript-funksjonene er en toggle av hidden-attributen som blir triggret av å klikke på elementet. Det som var mest lærerikt for oss var at alt dette ble gjort på forskjellige maskiner med forskjellige operative systemer via git som er utrolig hjelpsomt.  

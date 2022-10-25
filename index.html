@@ -2,8 +2,29 @@
 <title>Flagg</title>
 <head>
   <h2>Dette er 9B din flaggoppgave. Vi har bestemt oss for å lage tre forskjellige flagg, Frankrike, Tyskland og Nord-Korea. Det er mulig å trykke på flaggene for å få opp generell informasjon om de ulike landene.</h2>
-  <script src="index.js"></script>
-  <link rel="stylesheet" href="index.css" />
+  <script>function nk() {
+    if ('hidden') {
+        document.getElementById("txtbox").toggleAttribute('hidden');
+    } else {
+        document.getElementById("txtbox").toggleAttribute("hidden");
+    }
+}
+
+function ge() {
+    if ('hidden') {
+        document.getElementById("txtbox2").toggleAttribute('hidden');
+    } else {
+        document.getElementById("txtbox2").toggleAttribute("hidden");
+    }
+}
+
+function fr() {
+    if ('hidden') {
+        document.getElementById("txtbox3").toggleAttribute('hidden');
+    } else {
+        document.getElementById("txtbox3").toggleAttribute("hidden");
+    }
+}</script>
 </head>
 <body style="background-color: rgb(125, 182, 201);">
   <canvas onclick="fr()" id="Frankrike" width="300" height="300" style="position: absolute; left: 710px; width: 300px"></canvas>
@@ -54,12 +75,39 @@
     }
     tegnFranskFlagg();
   </script>
+  <style>.north_korea {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: white;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    background-color: white;
+    width: 400px;
+}
+
+.circle {
+    background-color: white;
+    height: 80px;
+    aspect-ratio: 1;
+    border-radius: 1in;
+    margin: 15px 50px;
+}
+
+.star {
+    aspect-ratio: 1;
+    background: #ed1c27;
+    clip-path: polygon( 50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35% );
+}</style>
   <div
     id="trigger"
     class="flag north_korea"
     onclick="nk()"
-    style="position: relative; left: 350px; width: 300px"
-  >
+    style="position: relative; left: 350px; width: 300px">
     <div style="background: #024fa2; height: 33px"></div>
     <div style="background: #ed1c27; height: 122px">
       <div class="circle">

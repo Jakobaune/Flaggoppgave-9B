@@ -20,3 +20,8 @@ Alf synes tittel beskrivelse var lett, men git var litt vanskeligere, har lært 
 Kristian er den mest erfarne med både git, HTML, CSS og JS. JavaScript var et helt nytt kodespråk for han og det ble en stor utfordring å implementere disse JavaScript funksjonene på nettsiden, han har lært utrolig mye innenfor JavaScript, eksterne filer og funksjoner.
 
 Nettsiden har tre flagg som alle har litt forskjellig kompleksitet, det vanskeligste var det Nord Koreanske flagget der man måtte lage en hvit sirkel med en rød stjerne i midten. Dette ble brukt med CSS og classes. Det var lettere å lage flagget ved å sortere flagget i classes. Tyskland er laget med HTML styles som er CSS element ved bruk av styles i HTML-element. Frankrike er laget med canvas som utnytter JavaScript for å tegne flagget. JavaScript-funksjonene er en toggle av hidden-attributen som blir triggret av å klikke på elementet. Det som var mest lærerikt for oss var at alt dette ble gjort på forskjellige maskiner med forskjellige operative systemer via git som er utrolig hjelpsomt.  
+
+Referanser
+Nord Korea flagg https://en.wikipedia.org/wiki/Flag_of_North_Korea
+Tysk flagg https://en.wikipedia.org/wiki/Germany
+Fransk flagg https://en.wikipedia.org/wiki/France

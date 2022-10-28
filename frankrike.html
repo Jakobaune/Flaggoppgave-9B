@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+<body>
+    <canvas onclick="fr()" id="Frankrike" width="300" height="300" style="position: absolute; left: 710px; width: 300px"></canvas>
+    <p
+      onclick="fr()"
+      id="txtbox3"
+      hidden
+      justify
+      style="
+        position: absolute;
+        left: 710px;
+        top: 295px;
+        background-color: #b8f1ed;
+        width: 260px;
+        border-radius: 5px;
+        opacity: 0.9;
+        font-size: 14px;
+        padding: 15px;
+        margin: 5px;
+        font-style: oblique;
+        border-style: dotted;
+      ">
+      <b>
+        Frankrike<br />
+        Populasjon: 66,366,853<br />
+        Hovedstad: Paris<br />
+        Areal: 543,940 km2<br />
+        Offisielt Språk: Fransk<br />
+        Info: Et land som er kjent for å være et av Europas viktigste industriland.
+        Frankrike har betydd mye i Europas kulturhistorie, både innen kunst og
+         litteratur og som arnested for nye ideer. Ikke minst gjennom sin politiske
+         historie har Frankrike spilt en fremtredende rolle. 
+      </b>
+    </p>
+    <script onclick="fr()">
+      const canvas = document.getElementById("Frankrike");
+      const ctx = canvas.getContext("2d");
+  
+      function rectangle(width, height, Filltype, color) {
+        ctx.fillStyle = color;
+        ctx.fillRect(0, 0, width, height);
+      }
+  
+      function tegnFranskFlagg() {
+        rectangle(300, 200, "solid", "#EF4135");
+        rectangle(200, 200, "solid", "#FFFFFF");
+        rectangle(100, 200, "solid", "#0055A4");
+      }
+      tegnFranskFlagg();
+  </script>
+</html>

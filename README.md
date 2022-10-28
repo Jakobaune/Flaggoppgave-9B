@@ -25,8 +25,8 @@ Det har vært mye nytt vi har måtte lære oss i dette projektet. Det var kun Kr
 
 Referanser:
 
-Wikimedia Foundation. (2022, October 15). Flag of North Korea. Wikipedia. Retrieved October 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_North_Korea 
+Wikimedia Foundation. (2022, october 15). Flag of North Korea. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_North_Korea 
 
-Wikimedia Foundation. (2022, October 15). Flag of Germany. Wikipedia. Retrieved October 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_Germany
+Wikimedia Foundation. (2022, october 15). Flag of Germany. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_Germany
 
-Wikimedia Foundation. (2022, October 15). Flag of France. Wikipedia. Retrieved October 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_France
+Wikimedia Foundation. (2022, october 15). Flag of France. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_France

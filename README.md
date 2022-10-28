@@ -23,8 +23,10 @@ Nettsiden har tre flagg som alle har litt forskjellig kompleksitet, det vanskeli
 
 Det har vært mye nytt vi har måtte lære oss i dette projektet. Det var kun Kristian som hadde tidligere erfaring fra koding, så vi andre har brukt mye tid på å lære oss alt fra oppsett til enkelte funksjoner. Vi andre har blant annet brukt crash-course i Javascript og nettsteder som w3school for å lære enkelte funksjoner. Vi brukte w3schools for mesteparten av funksjonene vi ikke fikk til, og hvis det var noe vi ikke fikk til etter det så spurte vi enten Kristian, eller brukte Youtube for mer forklarende videoer. Ved Tyskland sitt flagg brukte Caroline i hovedssak det hun har lært i janis sitt proggrammeringskurs i tillegg til noen av forelesningene til Janis i IS-114, men også w3schools på de punktene hun var usikker. 
 
-Referanser
-Nord Korea flagg https://en.wikipedia.org/wiki/Flag_of_North_Korea
-Tysk flagg https://en.wikipedia.org/wiki/Germany
-Tysk flagg fargekode https://www.flagcolorcodes.com/germany 
-Fransk flagg https://en.wikipedia.org/wiki/France
+Referanser:
+
+Wikimedia Foundation. (2022, october 15). Flag of North Korea. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_North_Korea 
+
+Wikimedia Foundation. (2022, october 15). Flag of Germany. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_Germany
+
+Wikimedia Foundation. (2022, october 15). Flag of France. Wikipedia. Hentet oktober 28, 2022, from https://en.wikipedia.org/wiki/Flag_of_France
